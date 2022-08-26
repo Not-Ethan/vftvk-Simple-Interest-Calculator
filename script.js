@@ -2,7 +2,10 @@ function compute()
 {
     //get principal and check value
     let principal = document.getElementById("principal").value;
-    if(principal<1) return alert("Enter a positive number for principal.");
+    if(principal<1) {
+        alert("Enter a positive number for principal.");
+        return document.getElementById("principal").focus();
+}
     
     //define other variables
     let rate = document.getElementById("rate").value;

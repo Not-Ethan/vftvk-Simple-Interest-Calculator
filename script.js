@@ -12,7 +12,7 @@ function compute()
     let r = document.getElementById("result");
 
     //update html
-    r.innerHTML = `If you deposit <mark>${principal}</mark>, at an interest rate of <mark>${rate}</mark>.\nYou will receive an amount of <mark>${interest}</mark>,in the year <mark>${year}</mark>`;
+    r.innerHTML = `<strong>If</strong> you deposit <mark>${principal}</mark>,<br><strong>at</strong> an interest rate of <mark>${rate}</mark>.<br><strong>You<strong> will receive an amount of <mark>${interest}</mark>,<br><strong>in</strong> the year <mark>${year}</mark><br>`;
 
     //refocus
     document.getElementById("principal").focus();
